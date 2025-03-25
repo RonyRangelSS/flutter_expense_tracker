@@ -1,16 +1,13 @@
-# expanse_tracker
+# Expense Tracker
 
-A new Flutter project.
+That is a mobile app developed using dart, it lets the user add your expenses with the following properties:
+- Title
+- Amount
+- Date
+- Category (Food, Work, Travel, Leisure)
 
-## Getting Started
+Furthermore, you can add a new expense or delete them, besides i will implement the charts that will apresent the graphic proporcion of your expenses and allows you to use the app in dark mode.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Technologies used
+- Dart
+- Flutter
