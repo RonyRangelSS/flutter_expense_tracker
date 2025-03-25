@@ -1,3 +1,4 @@
+import 'package:expanse_tracker/widgets/chart/chart.dart';
 import 'package:expanse_tracker/widgets/expense_list/expenses_list.dart';
 import 'package:expanse_tracker/models/expense.dart';
 import 'package:expanse_tracker/widgets/new_expense.dart';
@@ -84,7 +85,7 @@ class _ExpensesState extends State<Expenses> {
       ),
       body: Column(
         children: [
-          Text("The charts"),
+          Chart(expenses: _registeredExpenses),
           Expanded(
               child: ExpensesList(
             expenses: _registeredExpenses,
