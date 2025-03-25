@@ -1,4 +1,4 @@
-# Expenser Tracker
+# Expense Tracker
 
 That is a mobile app developed using dart, it lets the user add your expenses with the following properties:
 - Title
